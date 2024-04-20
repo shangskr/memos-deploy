@@ -23,3 +23,9 @@ wget -O memos-freebsd.sh https://raw.githubusercontent.com/SinzMise/memos-deploy
 ```
 然后运行./memos --data ./db --mode prod --port 在Serv00放行的端口  
 即可使用
+
+## 使用方法
+cd ~/domains/memos
+sh memos-freebsd.sh
+./memos --data ./db --mode prod --port 19862（端口）
+然后用pm2挂起
